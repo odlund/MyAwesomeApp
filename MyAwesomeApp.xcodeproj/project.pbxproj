@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9AD1CB711BDC305300F3E7B0 /* MyAwesomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAwesomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD1CB711BDC305300F3E7B0 /* MyAwesomeApp Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyAwesomeApp Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD1CB751BDC305300F3E7B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AD1CB771BDC305300F3E7B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AD1CB781BDC305300F3E7B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		9AD1CB721BDC305300F3E7B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9AD1CB711BDC305300F3E7B0 /* MyAwesomeApp.app */,
+				9AD1CB711BDC305300F3E7B0 /* MyAwesomeApp Debug.app */,
 				9AD1CB8A1BDC305300F3E7B0 /* MyAwesomeAppTests.xctest */,
 				9AD1CB951BDC305300F3E7B0 /* MyAwesomeAppUITests.xctest */,
 			);
@@ -157,7 +157,7 @@
 			);
 			name = MyAwesomeApp;
 			productName = MyAwesomeApp;
-			productReference = 9AD1CB711BDC305300F3E7B0 /* MyAwesomeApp.app */;
+			productReference = 9AD1CB711BDC305300F3E7B0 /* MyAwesomeApp Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9AD1CB891BDC305300F3E7B0 /* MyAwesomeAppTests */ = {
@@ -419,7 +419,7 @@
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME) Debug";
 				PROVISIONING_PROFILE = "d4cc43a5-0c85-4628-bb80-3ad7138ee833";
 			};
 			name = Debug;
@@ -433,7 +433,7 @@
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME) Release";
 				PROVISIONING_PROFILE = "924005ad-97d8-44d7-8d5a-08bf36255ada";
 			};
 			name = Release;
@@ -533,7 +533,7 @@
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME) Staging";
 				PROVISIONING_PROFILE = "5d9f7d67-7c2a-4911-a4d9-c1611cf413e0";
 			};
 			name = Staging;
