@@ -24,16 +24,14 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testEquality {
     // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    XCTAssert(5 == 5, @"Five is in fact equal to five");
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testThatFails {
+    // This is an example of a functional test case.
+    XCTAssert(5 == 4, @"Five is in fact equal to four");
 }
 
 @end
