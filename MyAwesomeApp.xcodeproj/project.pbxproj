@@ -462,7 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME) Release";
-				PROVISIONING_PROFILE = "924005ad-97d8-44d7-8d5a-08bf36255ada";
+				PROVISIONING_PROFILE = "5d9f7d67-7c2a-4911-a4d9-c1611cf413e0";
 			};
 			name = Release;
 		};
