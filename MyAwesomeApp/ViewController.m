@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)crashAndBurn:(id)sender {
+    NSArray *array = @[ @1, @2, @3 ];
+
+    NSLog(@"Item 4: %@", [array objectAtIndex:3]);
+}
+
 @end

@@ -77,6 +77,18 @@
                                     <segue destination="NXz-i0-cf7" kind="show" id="hgp-Y4-nYJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH4-wH-UdV">
+                                <rect key="frame" x="247" y="318" width="107" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="JU2-Nz-pFP"/>
+                                    <constraint firstAttribute="height" constant="30" id="o8f-He-XiO"/>
+                                </constraints>
+                                <state key="normal" title="Crash and Burn"/>
+                                <connections>
+                                    <action selector="crashAndBurn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8X9-2y-vmD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -85,6 +97,8 @@
                             <constraint firstItem="JFi-j4-rvn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BBj-x8-30Y"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="e9k-gk-Gs8" secondAttribute="bottom" constant="40" id="Bcn-Hu-aBW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="e9k-gk-Gs8" secondAttribute="trailing" constant="40" id="Hfl-9Z-mCG"/>
+                            <constraint firstItem="WH4-wH-UdV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uis-2e-WTN"/>
+                            <constraint firstItem="WH4-wH-UdV" firstAttribute="top" secondItem="JFi-j4-rvn" secondAttribute="bottom" constant="8" id="d20-0T-Uy5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FvQ-Bg-xks"/>
