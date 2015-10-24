@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9AD1CB701BDC305300F3E7B0"
-               BuildableName = "MyAwesomeApp.app"
+               BuildableName = "MyAwesomeApp Debug.app"
                BlueprintName = "MyAwesomeApp"
                ReferencedContainer = "container:MyAwesomeApp.xcodeproj">
             </BuildableReference>
@@ -23,37 +23,18 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9AD1CB891BDC305300F3E7B0"
-               BuildableName = "MyAwesomeAppTests.xctest"
-               BlueprintName = "MyAwesomeAppTests"
-               ReferencedContainer = "container:MyAwesomeApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9AD1CB941BDC305300F3E7B0"
-               BuildableName = "MyAwesomeAppUITests.xctest"
-               BlueprintName = "MyAwesomeAppUITests"
-               ReferencedContainer = "container:MyAwesomeApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9AD1CB701BDC305300F3E7B0"
-            BuildableName = "MyAwesomeApp.app"
+            BuildableName = "MyAwesomeApp Debug.app"
             BlueprintName = "MyAwesomeApp"
             ReferencedContainer = "container:MyAwesomeApp.xcodeproj">
          </BuildableReference>
@@ -62,7 +43,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -76,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9AD1CB701BDC305300F3E7B0"
-            BuildableName = "MyAwesomeApp.app"
+            BuildableName = "MyAwesomeApp Debug.app"
             BlueprintName = "MyAwesomeApp"
             ReferencedContainer = "container:MyAwesomeApp.xcodeproj">
          </BuildableReference>
@@ -95,14 +76,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9AD1CB701BDC305300F3E7B0"
-            BuildableName = "MyAwesomeApp.app"
+            BuildableName = "MyAwesomeApp Debug.app"
             BlueprintName = "MyAwesomeApp"
             ReferencedContainer = "container:MyAwesomeApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
