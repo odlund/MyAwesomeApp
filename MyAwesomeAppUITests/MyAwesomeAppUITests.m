@@ -32,8 +32,13 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testTheButton {
     // Use recording to get started writing UI tests.
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    [app.buttons[@"Click Me"] tap];
+    
+    [app.staticTexts[@"You found the second View Controller!"] tap];
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
