@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					9AD1CB701BDC305300F3E7B0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N9BV2YZDNP;
 					};
 					9AD1CB891BDC305300F3E7B0 = {
 						CreatedOnToolsVersion = 7.1;
@@ -413,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anders Ödlund (546KH42AJX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anders Ödlund (546KH42AJX)";
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d4cc43a5-0c85-4628-bb80-3ad7138ee833";
 			};
 			name = Debug;
 		};
@@ -424,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5d9f7d67-7c2a-4911-a4d9-c1611cf413e0";
 			};
 			name = Release;
 		};
