@@ -15,6 +15,11 @@
 		9AD1CB841BDC305300F3E7B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD1CB821BDC305300F3E7B0 /* LaunchScreen.storyboard */; };
 		9AD1CB8F1BDC305300F3E7B0 /* MyAwesomeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1CB8E1BDC305300F3E7B0 /* MyAwesomeAppTests.m */; };
 		9AD1CB9A1BDC305300F3E7B0 /* MyAwesomeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1CB991BDC305300F3E7B0 /* MyAwesomeAppUITests.m */; };
+		9AD1CBAC1BDC464500F3E7B0 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD1CBAB1BDC464500F3E7B0 /* BuddyBuildSDK.framework */; };
+		9AD1CBAE1BDC475D00F3E7B0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD1CBAD1BDC475D00F3E7B0 /* AssetsLibrary.framework */; };
+		9AD1CBB01BDC476400F3E7B0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD1CBAF1BDC476400F3E7B0 /* CoreText.framework */; };
+		9AD1CBB21BDC476800F3E7B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD1CBB11BDC476800F3E7B0 /* SystemConfiguration.framework */; };
+		9AD1CBB41BDC476C00F3E7B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD1CBB31BDC476C00F3E7B0 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		9AD1CB951BDC305300F3E7B0 /* MyAwesomeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAwesomeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD1CB991BDC305300F3E7B0 /* MyAwesomeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAwesomeAppUITests.m; sourceTree = "<group>"; };
 		9AD1CB9B1BDC305300F3E7B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD1CBAB1BDC464500F3E7B0 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		9AD1CBAD1BDC475D00F3E7B0 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9AD1CBAF1BDC476400F3E7B0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9AD1CBB11BDC476800F3E7B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9AD1CBB31BDC476C00F3E7B0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD1CBB41BDC476C00F3E7B0 /* CoreTelephony.framework in Frameworks */,
+				9AD1CBB21BDC476800F3E7B0 /* SystemConfiguration.framework in Frameworks */,
+				9AD1CBB01BDC476400F3E7B0 /* CoreText.framework in Frameworks */,
+				9AD1CBAE1BDC475D00F3E7B0 /* AssetsLibrary.framework in Frameworks */,
+				9AD1CBAC1BDC464500F3E7B0 /* BuddyBuildSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,11 @@
 		9AD1CB681BDC305300F3E7B0 = {
 			isa = PBXGroup;
 			children = (
+				9AD1CBB31BDC476C00F3E7B0 /* CoreTelephony.framework */,
+				9AD1CBB11BDC476800F3E7B0 /* SystemConfiguration.framework */,
+				9AD1CBAF1BDC476400F3E7B0 /* CoreText.framework */,
+				9AD1CBAD1BDC475D00F3E7B0 /* AssetsLibrary.framework */,
+				9AD1CBAB1BDC464500F3E7B0 /* BuddyBuildSDK.framework */,
 				9AD1CB731BDC305300F3E7B0 /* MyAwesomeApp */,
 				9AD1CB8D1BDC305300F3E7B0 /* MyAwesomeAppTests */,
 				9AD1CB981BDC305300F3E7B0 /* MyAwesomeAppUITests */,
@@ -416,6 +436,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Anders Ödlund (546KH42AJX)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anders Ödlund (546KH42AJX)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
@@ -430,6 +454,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;
@@ -530,6 +558,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odlund.MyAwesomeApp;

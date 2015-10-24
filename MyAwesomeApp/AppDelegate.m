@@ -5,6 +5,7 @@
 //  Created by Anders Oedlund on 10/24/15.
 //  Copyright © 2015 Anders Oedlund. All rights reserved.
 //
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 #import "AppDelegate.h"
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [BuddyBuildSDK setup];
+
     return YES;
 }
 
