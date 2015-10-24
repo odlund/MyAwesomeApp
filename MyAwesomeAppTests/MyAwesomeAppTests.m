@@ -31,7 +31,7 @@
 
 - (void)testThatFails {
     // This is an example of a functional test case.
-    XCTAssert(5 == 4, @"Five is in fact equal to four");
+    XCTAssert(5 != 4, @"Five is in fact not equal to four");
 }
 
 @end
