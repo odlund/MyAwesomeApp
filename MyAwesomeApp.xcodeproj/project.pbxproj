@@ -493,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA5429AAF38560486F0DDB0D /* Pods.debug.xcconfig */;
 			buildSettings = {
+				APP_NAME = "Awesome Debug";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Anders Ödlund (546KH42AJX)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anders Ödlund (546KH42AJX)";
@@ -512,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB8356B9CB75D6AC2BE40840 /* Pods.release.xcconfig */;
 			buildSettings = {
+				APP_NAME = "Awesome Release";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anders Ödlund (N9BV2YZDNP)";
