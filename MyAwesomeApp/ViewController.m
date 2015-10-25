@@ -19,6 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    NSLog(@"Hello Dev Branch");
+
     [RACSignal startEagerlyWithScheduler:[RACScheduler immediateScheduler] block:^(id<RACSubscriber> subscriber) {
         NSLog(@"Hello World");
     }];
